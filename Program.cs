@@ -10,5 +10,9 @@ class Expense
         Amount = amount;
     }
 }
+static void AddExpense (string description, double amount)
+{
+    
+}
 
 
