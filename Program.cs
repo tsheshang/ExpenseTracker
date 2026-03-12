@@ -6,7 +6,8 @@ while (true)
     Console.WriteLine("\nExpense Tracker");
     Console.WriteLine("1. Add Expense");
     Console.WriteLine("2. View Expenses");
-    Console.WriteLine("3. Exit");
+    Console.WriteLine("3. show total");
+    Console.WriteLine("4. Exit");
 
     Console.Write("Choose option: ");
     string choice = Console.ReadLine();
@@ -26,6 +27,10 @@ while (true)
         ViewExpenses();
     }
     else if (choice == "3")
+    {
+        ShowTotal();  
+    }
+    else if (choice == "4")
     {
         break;
     }
