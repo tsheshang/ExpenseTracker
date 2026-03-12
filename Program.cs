@@ -41,7 +41,7 @@ void ViewExpenses()
 {
     for (int i = 0; i < count; i++)
     {
-        Console.WriteLine($"{i + 1}. {expenses[i].Description} - ${expenses[i].Amount}");
+        Console.WriteLine($"{i + 1}. {expenses[i].Description} - Rs{expenses[i].Amount}");
     }
 }
 
