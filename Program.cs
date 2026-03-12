@@ -45,6 +45,18 @@ void ViewExpenses()
     }
 }
 
+void ShowTotal()
+{
+    double total = 0;
+
+    for (int i = 0; i < count; i++)
+    {
+        total += expenses[i].Amount;
+    }
+
+    Console.WriteLine($"Total Expenses: ${total}");
+}
+
 class Expense
 {
     public string Description { get; set; }
